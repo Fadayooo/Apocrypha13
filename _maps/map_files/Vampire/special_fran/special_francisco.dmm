@@ -930,6 +930,7 @@
 /obj/item/storage/backpack/duffelbag,
 /obj/item/clothing/under/misc/pj/blue,
 /obj/machinery/light/small/directional/north,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/radio)
 "aEZ" = (
@@ -1939,6 +1940,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/blacksilver,
 /area/vtm/interior/apartment)
 "bhP" = (
@@ -3037,6 +3039,7 @@
 	color = "#4a3925";
 	dir = 6
 	},
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/voivodate)
 "bMa" = (
@@ -5804,7 +5807,8 @@
 /area/vtm/interior/voivodate)
 "dvg" = (
 /obj/structure/bath{
-	pixel_y = 10
+	pixel_y = 10;
+	density = 0
 	},
 /obj/machinery/shower/directional/east,
 /obj/machinery/shower/directional/south,
@@ -7986,6 +7990,7 @@
 /area/vtm/interior/shop/ishu)
 "eKs" = (
 /obj/structure/bed/maint,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "eKz" = (
@@ -9482,6 +9487,8 @@
 /obj/item/clothing/shoes/jackboots,
 /obj/effect/spawner/random/bedsheet/double,
 /obj/machinery/light/prince/directional/north,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "fzQ" = (
@@ -10141,6 +10148,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/darkpack/chantry/archivist,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
 "fSK" = (
@@ -12064,6 +12072,7 @@
 /obj/structure/bed,
 /obj/effect/spawner/random/bedsheet,
 /obj/machinery/light/small/directional/east,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
 "gXn" = (
@@ -13290,6 +13299,7 @@
 "hJe" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto/sewer/north)
 "hJq" = (
@@ -13812,6 +13822,7 @@
 "hVX" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
+/obj/item/pillow/random,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/anarch/basement)
 "hVZ" = (
@@ -14166,6 +14177,8 @@
 /obj/machinery/light/prince/directional/north,
 /obj/effect/spawner/random/bedsheet/double,
 /obj/structure/closet/cabinet,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "ieY" = (
@@ -16786,6 +16799,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "jGu" = (
@@ -18379,6 +18393,7 @@
 "kwb" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto/sewer)
 "kwc" = (
@@ -18441,7 +18456,8 @@
 /area/vtm/interior/apartment)
 "kxP" = (
 /obj/structure/bath{
-	pixel_y = 10
+	pixel_y = 10;
+	density = 0
 	},
 /obj/machinery/shower/directional/south,
 /turf/open/floor/city/clinic,
@@ -18952,6 +18968,7 @@
 /obj/structure/bed,
 /obj/machinery/light/small/directional/north,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
 "kNz" = (
@@ -19678,6 +19695,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/darkpack/chantry/archivist,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
 "liU" = (
@@ -20018,6 +20036,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/darkpack/chantry/archivist,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
 "lsc" = (
@@ -22953,6 +22972,7 @@
 "mZL" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/ghetto/sewer)
 "nah" = (
@@ -23238,6 +23258,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "nkr" = (
@@ -25281,6 +25302,7 @@
 "ost" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "osx" = (
@@ -25570,6 +25592,7 @@
 /obj/structure/closet/cabinet,
 /obj/machinery/light/small/directional/north,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto/sewer/north)
 "ozf" = (
@@ -26241,7 +26264,9 @@
 /area/vtm/interior/chantry)
 "oRl" = (
 /obj/machinery/shower/directional/west,
-/obj/structure/bath,
+/obj/structure/bath{
+	density = 0
+	},
 /obj/effect/turf_decal/siding{
 	dir = 9
 	},
@@ -26809,6 +26834,8 @@
 	color = "CC0000"
 	},
 /obj/effect/spawner/random/bedsheet/double,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/apartment)
 "piV" = (
@@ -27997,6 +28024,7 @@
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/vampire/punk,
 /obj/item/storage/backpack/satchel,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/radio)
 "pRT" = (
@@ -28723,6 +28751,7 @@
 	},
 /obj/item/clothing/under/vampire/turtleneck_black,
 /obj/item/storage/backpack/satchel,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/radio)
 "qkg" = (
@@ -28827,6 +28856,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/darkpack/chantry/regent,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
 "qmF" = (
@@ -30806,6 +30836,8 @@
 "rmp" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/double,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/apartment)
 "rmw" = (
@@ -31399,6 +31431,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/apartment)
 "rCB" = (
@@ -34027,6 +34060,8 @@
 /obj/item/wirecutters,
 /obj/item/clothing/suit/costume/cheongsam_red,
 /obj/item/clothing/suit/costume/cheongsam_blue,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/laundromat)
 "sUP" = (
@@ -34314,6 +34349,7 @@
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
 /obj/item/toy/crayon/spraycan,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "tbB" = (
@@ -34874,6 +34910,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/black,
 /obj/effect/landmark/start/darkpack/voivode/zadruga,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/voivodate)
 "tte" = (
@@ -35223,6 +35260,14 @@
 /mob/living/carbon/human/npc/walkby,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/financialdistrict)
+"tCA" = (
+/obj/structure/closet/cabinet,
+/obj/effect/spawner/random/bedsheet,
+/obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
+/turf/open/floor/carpet/darkpack/blackgold,
+/area/vtm/interior/apartment)
 "tCK" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/fax/police{
@@ -36302,6 +36347,7 @@
 "uhZ" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/hotel)
 "uia" = (
@@ -38414,6 +38460,8 @@
 /obj/item/clothing/shoes/vampire/sancho,
 /obj/item/clothing/suit/vampire/sancho,
 /obj/item/clothing/under/vampire/sancho,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/wood/herring,
 /area/vtm/interior/voivodate)
 "vqD" = (
@@ -38531,6 +38579,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/apartment)
 "vuj" = (
@@ -41314,6 +41363,7 @@
 /obj/structure/bed/maint,
 /obj/effect/spawner/random/bedsheet,
 /obj/machinery/light/prince/broken/directional/north,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "xcq" = (
@@ -73299,7 +73349,7 @@ ygx
 xAO
 mRu
 nSc
-vue
+tCA
 awi
 aDh
 aDh
