@@ -4275,12 +4275,11 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower)
 "cvS" = (
-/obj/structure/closet/crate/silvercrate,
-/obj/item/storage/bag/money/vault,
 /obj/effect/turf_decal/siding/white{
 	dir = 10;
 	color = "#636363"
 	},
+/obj/structure/reagent_dispensers/keg/gold/rum,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "cwl" = (
@@ -7648,7 +7647,7 @@
 	dir = 4
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = bianchi;
+	id = "bianchi";
 	max_integrity = 200;
 	pixel_y = 7
 	},
@@ -11219,12 +11218,11 @@
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/wyrm_corrupted)
 "gtY" = (
-/obj/structure/closet/crate/silvercrate,
-/obj/item/piggy_bank,
 /obj/effect/turf_decal/siding/white{
 	dir = 6;
 	color = "#636363"
 	},
+/obj/structure/reagent_dispensers/keg/gold/irish,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "gul" = (
@@ -16450,7 +16448,7 @@
 	color = "#636363"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = bianchi;
+	id = "bianchi";
 	max_integrity = 200;
 	pixel_y = 7
 	},
@@ -20954,7 +20952,7 @@
 /area/vtm/interior/police)
 "lOx" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = bianchi_office_curtains;
+	id = "bianchi_office_curtains";
 	pixel_y = 15
 	},
 /obj/structure/platform/lowwall/rich/window/reinforced,
@@ -21150,7 +21148,7 @@
 "lUz" = (
 /obj/effect/decal/wallpaper/gold/low,
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = bianchi_office_curtains
+	id = "bianchi_office_curtains"
 	},
 /obj/structure/platform/lowwall/rich/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -23459,7 +23457,7 @@
 	color = "#636363"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = bianchi;
+	id = "bianchi";
 	pixel_y = -3;
 	max_integrity = 200
 	},
@@ -23822,7 +23820,7 @@
 	color = "#636363"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = bianchi;
+	id = "bianchi";
 	max_integrity = 200;
 	pixel_y = 7
 	},
@@ -27659,7 +27657,7 @@
 /mob/living/basic/pet/dog/pug/mcgriff,
 /obj/machinery/light/prince/directional/north,
 /obj/machinery/button/door{
-	id = bianchi;
+	id = "bianchi";
 	name = "Bank Lockdown";
 	pixel_y = 21
 	},
@@ -27734,7 +27732,7 @@
 	color = "#636363"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = bianchi;
+	id = "bianchi";
 	pixel_y = -3;
 	max_integrity = 200
 	},
@@ -28094,10 +28092,10 @@
 /area/vtm/interior/endron_facility)
 "pIE" = (
 /obj/structure/closet/crate/silvercrate,
-/obj/item/piggy_bank/museum,
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
 	},
+/obj/item/wheelchair/gold,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "pIO" = (
@@ -34025,11 +34023,11 @@
 /turf/closed/wall/vampwall/old,
 /area/vtm/outside/pacificheights)
 "sJp" = (
-/obj/structure/closet/crate/silvercrate,
-/obj/item/storage/bag/money/bank_cash,
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
 	},
+/obj/item/storage/bag/money/vault,
+/obj/structure/closet/crate/silvercrate,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "sKi" = (
@@ -37967,12 +37965,11 @@
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/millennium_tower/f4)
 "uPn" = (
-/obj/item/wheelchair/gold,
-/obj/structure/closet/crate/goldcrate,
 /obj/effect/turf_decal/siding/white{
 	dir = 5;
 	color = "#636363"
 	},
+/obj/structure/reagent_dispensers/keg/gold,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "uPp" = (
@@ -38030,7 +38027,7 @@
 "uQu" = (
 /obj/structure/table/wood/fancy/red,
 /obj/machinery/button/curtain{
-	id = bianchi_office_curtains
+	id = "bianchi_office_curtains"
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
