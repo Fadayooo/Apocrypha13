@@ -663,11 +663,13 @@
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/police)
 "atL" = (
-/obj/machinery/camera/autoname/motion/directional/south,
+/obj/machinery/light/prince/directional/west,
 /obj/effect/turf_decal/siding/white{
-	color = "#636363"
+	color = "#636363";
+	dir = 8
 	},
-/turf/open/floor/carpet/darkpack/redsilver,
+/obj/machinery/camera/autoname/motion/directional/west,
+/turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "auf" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
@@ -2373,21 +2375,13 @@
 /area/vtm/interior/gang)
 "btd" = (
 /obj/structure/table/countertop/red,
-/obj/item/reagent_containers/condiment/saltshaker{
-	pixel_x = -8;
-	pixel_y = 13
-	},
-/obj/item/reagent_containers/condiment/peppermill{
-	pixel_x = -2;
-	pixel_y = 10
-	},
-/obj/item/food/salad/simple_fried_noodles{
-	pixel_y = 5;
-	pixel_x = -6
-	},
 /obj/machinery/processor{
 	pixel_x = 9;
 	pixel_y = 7
+	},
+/obj/machinery/reagentgrinder/kitchen{
+	pixel_x = -9;
+	pixel_y = 11
 	},
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/shop/chinese)
@@ -4758,9 +4752,9 @@
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/endron_facility)
 "cIw" = (
-/obj/structure/displaycase,
 /obj/item/stack/sheet/mineral/diamond/fifty,
 /obj/effect/overlay/spotlight,
+/obj/structure/displaycase/trophy,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "cII" = (
@@ -7419,7 +7413,20 @@
 "erj" = (
 /obj/structure/table/countertop/red,
 /obj/item/food/spaghetti/chowmein{
-	pixel_y = 7
+	pixel_y = 4;
+	pixel_x = 5
+	},
+/obj/item/food/salad/simple_fried_noodles{
+	pixel_y = 12;
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = 10;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = -11;
+	pixel_y = 2
 	},
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/shop/chinese)
@@ -24331,6 +24338,7 @@
 	color = "#636363";
 	dir = 8
 	},
+/obj/machinery/camera/autoname/motion/directional/west,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/bianchiBank)
 "nDr" = (
@@ -25562,6 +25570,7 @@
 	dir = 1;
 	color = "#636363"
 	},
+/obj/machinery/camera/autoname/motion/directional/east,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/bianchiBank)
 "oqg" = (
@@ -27137,6 +27146,7 @@
 "pgg" = (
 /obj/structure/spirit_board,
 /obj/effect/realistic_fog,
+/obj/effect/realistic_fog,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "pgu" = (
@@ -27991,7 +28001,7 @@
 /obj/effect/mapping_helpers/door/access/bankboss,
 /obj/effect/mapping_helpers/door/lock,
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = bianchi_office_curtains
+	id = "bianchi_office_curtains"
 	},
 /obj/effect/turf_decal/siding/white/end{
 	color = "#636363"
@@ -35986,11 +35996,12 @@
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/coffee)
 "tLy" = (
-/obj/machinery/camera/autoname/motion/directional/west,
+/obj/machinery/light/prince/directional/east,
 /obj/effect/turf_decal/siding/white{
-	color = "#636363";
-	dir = 8
+	dir = 4;
+	color = "#636363"
 	},
+/obj/machinery/camera/autoname/motion/directional/east,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/bianchiBank)
 "tLN" = (
@@ -36810,6 +36821,7 @@
 	pixel_y = 5;
 	density = 0
 	},
+/obj/machinery/camera/autoname/motion/directional/west,
 /turf/open/floor/wood/parquet,
 /area/vtm/interior/bianchiBank)
 "ujy" = (
@@ -70299,7 +70311,7 @@ iQa
 uOu
 cpw
 oFk
-qmJ
+nHQ
 nHQ
 eSx
 xYU
@@ -80993,8 +81005,8 @@ qpU
 yeE
 dwa
 ceq
-gPu
-tLy
+atL
+ceq
 cvS
 yeE
 ozf
@@ -81528,19 +81540,19 @@ qpU
 yeE
 uPn
 jov
-uzN
+tLy
 jov
 gtY
 yeE
 faF
 fKE
 oRo
-nHQ
+qmJ
 nHQ
 ltW
 ugv
 qgQ
-atL
+jcL
 ozf
 lhj
 iHe
