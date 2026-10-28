@@ -14,20 +14,25 @@
 		new /datum/data/vending_product("9mm ammo box", /obj/item/ammo_box/darkpack/c9mm),
 		new /datum/data/vending_product("12ga shotgun shells, buckshot",/obj/item/ammo_box/darkpack/c12g/buck),
 		new /datum/data/vending_product("machete", /obj/item/claymore/machete),
-		new /datum/data/vending_product("hunting knife", /obj/item/knife/vamp/bowie),
+		new /datum/data/vending_product("bowie knife", /obj/item/knife/vamp/bowie),
 		new /datum/data/vending_product("hunting shotgun", /obj/item/gun/ballistic/shotgun/vampire),
 		new	/datum/data/vending_product("Elite 92G", /obj/item/gun/ballistic/automatic/pistol/darkpack/beretta),
 		new /datum/data/vending_product("rescue fireaxe", /obj/item/fireaxe/vamp),
 		new /datum/data/vending_product("chainsaw", /obj/item/chainsaw/vamp),
 		new /datum/data/vending_product("hunting rifle", /obj/item/gun/ballistic/automatic/darkpack/huntrifle),
 		new /datum/data/vending_product("5.56 ammo", /obj/item/ammo_box/darkpack/c556),
-		new /datum/data/vending_product("military parka", /obj/item/clothing/suit/vampire/coat/milparka,	90),
+		new /datum/data/vending_product("military parka", /obj/item/clothing/suit/vampire/coat/milparka, 90)
 	)
 	product_types = list(
 		/obj/item/fishing_rod,
-		/obj/item/bait_can/worm,
+		/obj/item/fishing_rod/telescopic,
+		/obj/item/clothing/gloves/fishing,
+		/obj/item/bait_can/worm/premium,
 		/obj/item/bait_can/super_baits,
 		/obj/item/storage/toolbox/fishing,
 		/obj/item/storage/box/fishing_lures,
+		/obj/item/storage/box/fishing_hooks,
+		/obj/item/storage/box/fishing_lines,
+		/obj/item/storage/bag/fishing,
 		/obj/item/fishing_line/auto_reel
 	)
