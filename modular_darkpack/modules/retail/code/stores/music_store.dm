@@ -13,5 +13,5 @@
 		new /datum/data/vending_product("recorder", /obj/item/instrument/recorder),
 		new /datum/data/vending_product("glockeenspiel", /obj/item/instrument/glockenspiel),
 		new /datum/data/vending_product("boombox", /obj/item/boombox),
-		new /datum/data/vending_product("music tapes", /obj/item/storage/box/music_tapes)
+		new /datum/data/vending_product("music tapes", /obj/item/storage/box/music_tapes, 50)
 	)
