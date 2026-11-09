@@ -943,6 +943,7 @@
 /obj/item/storage/backpack/duffelbag,
 /obj/item/clothing/under/misc/pj/blue,
 /obj/machinery/light/small/directional/north,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/radio)
 "aEZ" = (
@@ -1967,6 +1968,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/blacksilver,
 /area/vtm/interior/apartment)
 "bhP" = (
@@ -3060,6 +3062,7 @@
 	color = "#4a3925";
 	dir = 6
 	},
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/voivodate)
 "bMa" = (
@@ -5855,11 +5858,14 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/voivodate)
 "dvg" = (
-/obj/structure/bath{
-	pixel_y = 10
-	},
-/obj/machinery/shower/directional/east,
 /obj/machinery/shower/directional/south,
+/obj/structure/curtain,
+/obj/structure/bath/sabbatbath{
+	name = "Bathtub";
+	desc = "A tub large enough to comfortably soak in. Relaxing!";
+	pixel_x = 0;
+	pixel_y = 11
+	},
 /turf/open/floor/city/clinic,
 /area/vtm/interior/apartment)
 "dvt" = (
@@ -6975,6 +6981,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 9
 	},
+/obj/structure/curtain,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/apartment)
 "eea" = (
@@ -7212,6 +7219,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 9
 	},
+/obj/structure/curtain,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/hotel)
 "elo" = (
@@ -8043,6 +8051,7 @@
 /area/vtm/interior/shop/ishu)
 "eKs" = (
 /obj/structure/bed/maint,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "eKT" = (
@@ -9287,6 +9296,10 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/roofwalk,
 /area/vtm/outside/chinatown/rooftops)
+"fud" = (
+/obj/structure/curtain,
+/turf/open/floor/wood/smooth,
+/area/vtm/interior/voivodate)
 "fuf" = (
 /obj/effect/turf_decal/bordur/inverse{
 	dir = 5
@@ -9533,6 +9546,8 @@
 /obj/item/clothing/shoes/jackboots,
 /obj/effect/spawner/random/bedsheet/double,
 /obj/machinery/light/prince/directional/north,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "fzQ" = (
@@ -10191,6 +10206,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/darkpack/chantry/archivist,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
 "fSK" = (
@@ -11878,6 +11894,7 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/blood/gibs/down,
+/obj/structure/curtain,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/apartment)
 "gPu" = (
@@ -12149,6 +12166,7 @@
 /obj/structure/bed,
 /obj/effect/spawner/random/bedsheet,
 /obj/machinery/light/small/directional/east,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
 "gXn" = (
@@ -12534,7 +12552,10 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment/hallway)
 "hih" = (
-/obj/structure/bath,
+/obj/structure/bath/sabbatbath{
+	name = "Bathtub";
+	desc = "A tub large enough to comfortably soak in. Relaxing!"
+	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/sewer)
 "hik" = (
@@ -13382,6 +13403,7 @@
 "hJe" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto/sewer/north)
 "hJq" = (
@@ -13687,6 +13709,7 @@
 /obj/effect/turf_decal/siding{
 	dir = 9
 	},
+/obj/structure/curtain,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/ghetto/sewer)
 "hRu" = (
@@ -13887,6 +13910,7 @@
 "hVX" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
+/obj/item/pillow/random,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/anarch/basement)
 "hVZ" = (
@@ -14234,6 +14258,8 @@
 /obj/machinery/light/prince/directional/north,
 /obj/effect/spawner/random/bedsheet/double,
 /obj/structure/closet/cabinet,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "ieY" = (
@@ -16899,6 +16925,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "jGu" = (
@@ -18503,6 +18530,7 @@
 "kwb" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto/sewer)
 "kwc" = (
@@ -18564,10 +18592,17 @@
 /turf/open/floor/city/clinic,
 /area/vtm/interior/apartment)
 "kxP" = (
-/obj/structure/bath{
-	pixel_y = 10
+/obj/structure/bath/sabbatbath{
+	name = "Bathtub";
+	desc = "A tub large enough to comfortably soak in. Relaxing!";
+	pixel_x = 0;
+	pixel_y = 11
 	},
 /obj/machinery/shower/directional/south,
+/obj/structure/curtain{
+	pixel_x = 0;
+	pixel_y = 9
+	},
 /turf/open/floor/city/clinic,
 /area/vtm/interior/apartment)
 "kya" = (
@@ -19071,6 +19106,7 @@
 /obj/structure/bed,
 /obj/machinery/light/small/directional/north,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
 "kNz" = (
@@ -19790,6 +19826,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/darkpack/chantry/archivist,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
 "liU" = (
@@ -20130,6 +20167,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/darkpack/chantry/archivist,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
 "lsc" = (
@@ -22739,6 +22777,7 @@
 /obj/effect/turf_decal/siding{
 	dir = 10
 	},
+/obj/structure/curtain,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/ghetto/sewer)
 "mPQ" = (
@@ -23089,6 +23128,7 @@
 "mZL" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/ghetto/sewer)
 "nah" = (
@@ -23400,6 +23440,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "nkr" = (
@@ -25458,6 +25499,7 @@
 "ost" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "osx" = (
@@ -25745,6 +25787,7 @@
 /obj/structure/closet/cabinet,
 /obj/machinery/light/small/directional/north,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto/sewer/north)
 "ozf" = (
@@ -26413,10 +26456,14 @@
 /area/vtm/interior/chantry)
 "oRl" = (
 /obj/machinery/shower/directional/west,
-/obj/structure/bath,
+/obj/structure/bath/sabbatbath{
+	name = "Bathtub";
+	desc = "A tub large enough to comfortably soak in. Relaxing!"
+	},
 /obj/effect/turf_decal/siding{
 	dir = 9
 	},
+/obj/structure/curtain,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/ghetto/sewer)
 "oRm" = (
@@ -26989,6 +27036,8 @@
 	color = "CC0000"
 	},
 /obj/effect/spawner/random/bedsheet/double,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/apartment)
 "piV" = (
@@ -28206,6 +28255,7 @@
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/vampire/punk,
 /obj/item/storage/backpack/satchel,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/radio)
 "pRT" = (
@@ -28922,6 +28972,7 @@
 	},
 /obj/item/clothing/under/vampire/turtleneck_black,
 /obj/item/storage/backpack/satchel,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/radio)
 "qkg" = (
@@ -29026,6 +29077,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/darkpack/chantry/regent,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
 "qmF" = (
@@ -29615,6 +29667,7 @@
 	color = "#9a704a";
 	dir = 1
 	},
+/obj/structure/curtain,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/voivodate)
 "qDy" = (
@@ -30601,6 +30654,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 5
 	},
+/obj/structure/curtain,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/apartment)
 "qZN" = (
@@ -31013,6 +31067,8 @@
 "rmp" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/double,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/apartment)
 "rmw" = (
@@ -31614,6 +31670,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/apartment)
 "rCB" = (
@@ -34241,6 +34298,8 @@
 /obj/item/wirecutters,
 /obj/item/clothing/suit/costume/cheongsam_red,
 /obj/item/clothing/suit/costume/cheongsam_blue,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/laundromat)
 "sUP" = (
@@ -34532,6 +34591,7 @@
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
 /obj/item/toy/crayon/spraycan,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "tbB" = (
@@ -34962,6 +35022,10 @@
 	},
 /turf/open/misc/grass/nosmooth,
 /area/vtm/outside/financialdistrict)
+"tpz" = (
+/obj/structure/curtain,
+/turf/open/floor/plating/sidewalk/old,
+/area/vtm/interior/voivodate)
 "tpV" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/wood/smooth/old,
@@ -35092,6 +35156,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/black,
 /obj/effect/landmark/start/darkpack/voivode/zadruga,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/voivodate)
 "tte" = (
@@ -35442,6 +35507,14 @@
 /mob/living/carbon/human/npc/walkby,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/financialdistrict)
+"tCA" = (
+/obj/structure/closet/cabinet,
+/obj/effect/spawner/random/bedsheet,
+/obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
+/turf/open/floor/carpet/darkpack/blackgold,
+/area/vtm/interior/apartment)
 "tCK" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/fax/police{
@@ -36529,6 +36602,7 @@
 "uhZ" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet/any,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/hotel)
 "uia" = (
@@ -38641,6 +38715,8 @@
 /obj/item/clothing/shoes/vampire/sancho,
 /obj/item/clothing/suit/vampire/sancho,
 /obj/item/clothing/under/vampire/sancho,
+/obj/item/pillow/random,
+/obj/item/pillow/random,
 /turf/open/floor/wood/herring,
 /area/vtm/interior/voivodate)
 "vqD" = (
@@ -38758,6 +38834,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/random/bedsheet,
 /obj/effect/spawner/random/bedsheet,
+/obj/item/pillow/random,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/apartment)
 "vuj" = (
@@ -41551,6 +41628,7 @@
 /obj/structure/bed/maint,
 /obj/effect/spawner/random/bedsheet,
 /obj/machinery/light/prince/broken/directional/north,
+/obj/item/pillow/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "xcq" = (
@@ -73547,7 +73625,7 @@ ygx
 xAO
 mRu
 nSc
-vue
+tCA
 awi
 aDh
 aDh
@@ -101017,7 +101095,7 @@ wba
 lNz
 sLN
 mNK
-xow
+tpz
 cae
 cZv
 sLN
@@ -101124,7 +101202,7 @@ lNz
 lNz
 sLN
 qVo
-xow
+tpz
 tZQ
 mCS
 wUL
@@ -115686,7 +115764,7 @@ xkJ
 sLN
 xow
 kbG
-xWL
+fud
 aTZ
 hjJ
 vwd
@@ -115793,7 +115871,7 @@ xkJ
 sLN
 uoy
 pTS
-xWL
+fud
 aTZ
 hjJ
 vwd
